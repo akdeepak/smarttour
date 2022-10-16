@@ -44,10 +44,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: PlayerView(),
-      //     home: DetailAudioPage(),
+      //    home: DetailAudioPage(),
           home:MainPage(),
           initialRoute: RouteHelper.initial,
-          getPages:RouteHelper.routes
+          getPages:RouteHelper.routes,
+
     );
   }
 }

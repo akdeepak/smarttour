@@ -14,12 +14,14 @@ class DetailAudioPage extends StatefulWidget {
 
 class _DetailAudioPageState extends State<DetailAudioPage> {
 
-  AudioPlayer _advancedPlayer = new AudioPlayer();
-  AssetsAudioPlayer _assetsAudioPlayer = new AssetsAudioPlayer();
+  late AudioPlayer _advancedPlayer;
+  late AssetsAudioPlayer _assetsAudioPlayer;
 
   @override
   void initState(){
     super.initState();
+     _advancedPlayer = new AudioPlayer();
+     _assetsAudioPlayer = new AssetsAudioPlayer();
   }
   @override
   Widget build(BuildContext context) {

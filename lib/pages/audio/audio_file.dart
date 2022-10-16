@@ -20,8 +20,7 @@ class AudioFile extends StatefulWidget {
 class _AudioFileState extends State<AudioFile> {
   Duration _duration = new Duration();
   Duration _position = new Duration();
-  final String path="https://https://github.com/rafaelreis-hotmart/Audio-Sample-files/sample2.mp3";
-  late Source audioUrl = UrlSource(path);
+  final String path="https://github.com/akdeepak/smarttour/tree/main/assets/audio";
   bool isPlaying = false;
   bool isPaused = false;
   bool isLoop = false;
@@ -42,12 +41,12 @@ class _AudioFileState extends State<AudioFile> {
       });
     });
 
-    this.widget.advancedPlayer.onPositionChanged.listen((event) {
-      setState(() {
-        _position = event;
-      });
-    });
-    this.widget.advancedPlayer.setSourceUrl(path);
+    // this.widget.advancedPlayer.onPositionChanged.listen((event) {
+    //   setState(() {
+    //     _position = event;
+    //   });
+    // });
+    // this.widget.advancedPlayer.setSourceUrl(path);
 
     this.widget.assetsAudioPlayer.playlistAudioFinished.listen((event) {
       setState(() {
@@ -68,8 +67,10 @@ class _AudioFileState extends State<AudioFile> {
           print(" Audio File Pressed--$isPlaying");
            // this.widget.assetsAudioPlayer.play(Audio("audio/statueofliberty.mp3"),);
           // AssetsAudioPlayer.playAndForget(Audio("audio/statueofliberty.mp3"),volume: 100);
-          print(this.widget.assetsAudioPlayer);
-          this.widget.assetsAudioPlayer.open(Audio("audio/statueofliberty.mp3"),volume: 100);
+          // print(this.widget.assetsAudioPlayer);
+          // this.widget.assetsAudioPlayer.open(Audio("audio/statueofliberty.mp3"));
+          //  this.widget.advancedPlayer.play("https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3b/3c/a0/3b3ca094-a480-18e9-e2c8-ee3b6a5731af/mzaf_8588557206542350398.plus.aac.p.m4a");
+           this.widget.advancedPlayer.play("http://localhost:60952/assets/audio/statueofliberty.mp3");
           print(" Audio File Pressed--$isPlaying");
           setState(() {
             isPlaying = true;

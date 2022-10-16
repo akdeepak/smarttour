@@ -37,6 +37,7 @@ class RouteHelper{
     }),
     GetPage(name: solDetailAudio,page: (){
       print("New york Tour page called ");
+
       return DetailAudioPage();
     }),
   ];

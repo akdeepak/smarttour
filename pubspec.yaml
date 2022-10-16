@@ -34,7 +34,8 @@ dependencies:
   get:
   dots_indicator: ^2.1.0
   expandable_text: ^2.3.0
-  audioplayers: ^1.1.1
+#  audioplayers: ^1.1.1
+  audioplayers: ^0.18.2
   assets_audio_player: ^3.0.5
 
   # The following adds the Cupertino Icons font to your application.
