@@ -15,3 +15,13 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # smarttour
+
+
+### Git Commands ####
+
+git checkout -b readydemo main
+git status
+git add .
+git commit -m " Smart Tour Demo"
+git status
+git push -u origin readydemo
