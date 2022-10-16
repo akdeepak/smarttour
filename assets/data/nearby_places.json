@@ -1,0 +1,67 @@
+{
+  "total_size": 5,
+  "type_id": 2,
+  "offset": 0,
+  "products": [
+    {
+      "id": 1,
+      "name": "New York",
+      "description": "",
+      "price": 12,
+      "stars": 5,
+      "img": "images/newyork1.jfif",
+      "location": "usa",
+      "created_at": "2021-12-27 06:35:34",
+      "updated_at": "2022-01-01 08:56:22",
+      "type_id": 2
+    },
+    {
+      "id": 2,
+      "name": "San Francisco",
+      "description": "",
+      "price": 12,
+      "stars": 5,
+      "img": "images/sanfrancisco.jfif",
+      "location": "usa",
+      "created_at": "2021-12-27 06:35:34",
+      "updated_at": "2022-01-01 08:56:22",
+      "type_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Chicago",
+      "description": "",
+      "price": 12,
+      "stars": 5,
+      "img": "images/chicago.jfif",
+      "location": "usa",
+      "created_at": "2021-12-27 06:35:34",
+      "updated_at": "2022-01-01 08:56:22",
+      "type_id": 2
+    },
+    {
+      "id": 4,
+      "name": "Los Angels",
+      "description": "",
+      "price": 12,
+      "stars": 5,
+      "img": "images/losangels.jfif",
+      "location": "usa",
+      "created_at": "2021-12-27 06:35:34",
+      "updated_at": "2022-01-01 08:56:22",
+      "type_id": 2
+    },
+    {
+      "id": 5,
+      "name": "Washington D.C",
+      "description": "",
+      "price": 12,
+      "stars": 5,
+      "img": "images/washington.jfif",
+      "location": "usa",
+      "created_at": "2021-12-27 06:35:34",
+      "updated_at": "2022-01-01 08:56:22",
+      "type_id": 2
+    }
+  ]
+}

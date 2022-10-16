@@ -1,0 +1,44 @@
+{
+  "total_size": 3,
+  "type_id": 2,
+  "offset": 0,
+  "products": [
+    {
+      "id": 3,
+      "name": "Statue Of Liberty",
+      "description": "",
+      "price": 12,
+      "stars": 5,
+      "img": "images/sol.jfif",
+      "location": "usa",
+      "created_at": "2021-12-27 06:35:34",
+      "updated_at": "2022-01-01 08:56:22",
+      "type_id": 2
+    },
+    {
+      "id": 2,
+      "name": "Empire State Building",
+      "description": "",
+      "price": 12,
+      "stars": 5,
+      "img": "images/esb.jfif",
+      "location": "usa",
+      "created_at": "2021-12-27 06:35:34",
+      "updated_at": "2022-01-01 08:56:22",
+      "type_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Central Park",
+      "description": "",
+      "price": 12,
+      "stars": 5,
+      "img": "images/centralpark.jfif",
+      "location": "usa",
+      "created_at": "2021-12-27 06:35:34",
+      "updated_at": "2022-01-01 08:56:22",
+      "type_id": 2
+
+    }
+  ]
+}
